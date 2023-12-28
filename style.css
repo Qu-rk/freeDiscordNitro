@@ -1,5 +1,6 @@
 body {
     font-size: 15pt;
+    background-color: black;
 }
 #main {
   text-align: center;
@@ -13,4 +14,23 @@ body {
   z-index: -99;
   height: 100%;
   width: 100%;
+  display: none;
+}
+h1, h4 {
+  color: white;
+}
+#button {
+  background-color: white;
+  color: black;
+  border: gray;
+  border-radius: 10px;
+  padding: 18px;
+  font-size: 30px;
+}
+#button:hover {
+  background-color: skyblue;
+  transition: 0.2s
+}
+#button:active {
+  background-color: blue;
 }
